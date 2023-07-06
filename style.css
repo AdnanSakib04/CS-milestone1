@@ -4,13 +4,15 @@
 }
 
 .navbar-container{
-    background-color: grey;
+    background-color: rgba(73, 78, 97, 0.977);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     color: white;
     cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -30,4 +32,33 @@
 
 .items:hover{
     color: red;
+}
+
+.banner-container{
+    display: flex;
+    height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/gias-uddin-swe/digital-products-b8/main/images/background.png), linear-gradient(45deg, black, grey);
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+
+.description{
+    font-size: 11px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner-pic{
+    width: 300px;
+}
+
+.btn{
+    background-color: red;
+    border: none;
+    padding: 5px 15px;
+    color: aliceblue;
+    border-radius: 2px;
+
 }
