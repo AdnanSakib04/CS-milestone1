@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.box2{
+    background-color: blue;
+}
+
+.box3{
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
